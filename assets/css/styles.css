@@ -1,0 +1,88 @@
+header, body, html {
+    font-family: 'Montserrat', sans-serif;    
+    margin: 0;
+    padding: 0;
+    background: rgb(147, 122, 247);
+}
+    /* background-image: url(".\\assets\\full-reference.jpg");
+    background-position: center;
+    background-size: cover; */
+    /* Uncomment above when full background is submitted */
+
+.navbar{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-between;
+    height: auto;
+    width: 100vw;
+    margin-top: 5vh;
+    /* background: rgb(236, 234, 245); */
+}
+
+.brandContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    height: auto;
+    width: 15vw;
+    /* background-color: brown; */
+}
+
+#brand{
+    height: auto;
+    width: 12vw;
+}
+
+.socialsContainer {
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-evenly;
+    height: auto;
+    width: 12vw;
+    /* background-color: #24203f; */
+} 
+
+#socialIcon {
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+}
+
+#socialIcon:hover {
+    color: #24203f;
+}
+.subicripcsrip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    margin: 40vh 0 0 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 20vh;
+}
+#title{
+    font-size: 4vw;
+    text-align: center;
+    color:white;
+}
+
+#titleB{
+    color:#24203f;
+}
+
+#desc{
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.8vw;
+    margin: -30px;
+    color: white;
+}
+#emailContainer{
+    height: 10vw;
+    margin: 4vh;
+}
