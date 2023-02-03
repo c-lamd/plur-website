@@ -62,7 +62,7 @@ header, body, html {
     margin: auto;
     margin: 40vh 0 0 50%;
     transform: translate(-50%, -50%);
-    width: 50vw;
+    width: 60vw;
     height: 20vh;
 }
 #title{
@@ -83,6 +83,32 @@ header, body, html {
     color: white;
 }
 #emailContainer{
+    display: flex;
+    align-items: center;
     height: 10vw;
     margin: 4vh;
+    justify-content: space-between;
+    width: 50vw;
+    /* background-color: #24203f; */
+}
+
+#sub-btn{
+    box-shadow: none;
+    border-color: #24203f;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: linear-gradient(90deg, rgb(57, 109, 242), rgb(214, 112, 251));
+    font-size: 20px;
+    border-radius: 15px;
+    width: 16vw;
+    height: 3.2vh;
+}
+#email{
+    border-color: #24203f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 30vw;
+    height: 3vh;
+    padding-left: 30px;
 }
