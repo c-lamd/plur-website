@@ -1,2 +1,50 @@
-/* #plur-navbar {
-} */
+body, html {
+    width: 100%; 
+    height: 600vh;
+    width: auto;
+    border: 0;
+    /* background-image: url(".\\assets\\full-reference.jpg");
+    background-position: center;
+    background-size: cover; */
+    /* Uncomment above when full background is submitted */
+
+  }
+
+@media (min-width: 992px) {
+    #brand {
+        width: 18vw;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    #brand {
+        width: 35vw;
+    }
+}
+
+#brandContainer {
+    display: flex;
+}
+#socialsContainer {
+    display: flex;
+    justify-content: flex-end;
+} 
+
+#socialIcon {
+    color: white;
+    font-size: 80px;
+    justify-content: space-around;
+}
+
+#socialIcon:hover {
+    color: #24203f;
+}
+
+#Title1 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 200px;
+}
